@@ -57,4 +57,4 @@ if __name__ == '__main__':
     for f in files:
         filename = os.path.join(path, 'texts', f)
         cursings = get_cursing_words(filename, cursing_words)
-        print cursings, filename
+        print len(cursings), cursings, f
